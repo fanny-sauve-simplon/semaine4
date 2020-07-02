@@ -1,0 +1,20 @@
+h1{
+    font-size: 2em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+}
+section h2 p{
+    font-size:1em
+}
+.art1{
+    border:solid red;
+}
+.art2{
+    border:solid red;
+}
+.art3{
+    border:solid red;
+}
+article p:last-child{
+    text-align: right;
+}

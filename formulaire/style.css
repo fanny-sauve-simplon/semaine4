@@ -1,0 +1,40 @@
+body{
+    margin:auto;
+    background:cornflowerblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para1,.para2,.para3{
+    color: #444343;
+}
+.container1{
+    height: auto;
+    width: 40em;
+    padding:1em;
+    margin-top:10em ;
+    margin-bottom:10em ;
+    background:white;
+    border: black;
+    justify-content: center;
+    display: flex;
+    color: #444343;
+}
+input[type=text]{
+    width: 40%%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left:8px;
+  }
+input[type=number]{
+    width: 40%%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left:8px;
+  }

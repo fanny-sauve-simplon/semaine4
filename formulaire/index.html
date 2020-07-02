@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container1">
+    <form action="">
+        <div class="container2">
+    <p class="para1"><label for="nom">*Nom</label>:<input type="text" name="nom" placeholder="Votre nom" ></p><br>
+    <p class="para2"><label for="email">*Email</label>:<input type="text" name="email" placeholder="Votre mail" ></p><br>
+    <p class="para3"><label for="age">*Age</label>:<input placeholder="Age" type="number" name="age" ><br></p>
+        </div><br>
+    <label for="reseau">Quelle application sur les réseaux sociaux utilisez vous?</label>
+        <div class="container2" >
+            <select name="reseau" id="reseausociau">
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instragram</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="youtube">YouTube</option>
+            </select></div>
+        <br>
+    <p>*Combien d'heures utilisez vous?</p>
+        <input type="radio" name="heures" value="heures">
+            <label for="heures">O-1 heures</label><br>
+        <input type="radio" name="heures" value="heures">
+            <label for="heures">1-2 heures</label><br>
+        <input type="radio" name="heures" value="heures">
+            <label for="heures">2-3 heures</label><br>
+        <input type="radio" name="heures" value="heures">
+            <label for="heures">3-4 heures</label><br>
+        <input type="radio" name="heures" value="heures">
+            <label for="heures">4-5 heures</label><br>
+    <p>Pourquoi utilisez vous cette application:
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Actualités</label> <br>
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Professionnel</label> <br>
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Voyages</label> <br>
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Passe temps</label> <br>
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Inspirations</label> <br>
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Photos</label> <br>
+        <input type="checkbox" name="application" value="raison">
+            <label for="application">Vidéos</label>
+    </p> <br>
+        <p>Des commentaires ou des suggestions?
+        <textarea name="message" id="boitemessage" cols="30" rows="10">mettez vos commentaires</textarea>
+    </p> <br>
+        <button type="button" onclick="alert">Envoyez</button>
+    </form>
+</div>
+</body>
+</html>

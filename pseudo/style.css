@@ -1,0 +1,26 @@
+h1{
+    color: teal;
+    border: 5px solid;
+}
+h1:hover{
+    color: tomato;
+    border:5px solid;
+}
+.carre{
+    width: 10em;
+    height: 10em;
+    background-color: teal;
+}
+.carre:active{
+    background-color: tomato;
+    width: 20em;
+    height: 20em;
+}
+input[type="text"]{
+    background-color: violet;
+}
+.carre1{
+    background-color: teal;
+    height: 10em;
+    width: 10em;
+}
